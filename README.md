@@ -26,12 +26,13 @@ The `boston_housing` directory includes code to train a neural network with one 
   ```sh
   $ python experiment.py
 
-MNIST
+### MNIST
 The mnist folder contains Theano code to train a neural network with two hidden layers, each with 400 units, on the MNIST dataset. Due to the size of the network, GPU execution is recommended:
 
+```sh
 $ cd mnist/
 $ THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python experiment.py
-
+```
 
 Results
 The experiment.py script stores the results in a results folder within each respective directory.
