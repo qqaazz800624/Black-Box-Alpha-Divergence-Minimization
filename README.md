@@ -34,35 +34,36 @@ $ cd mnist/
 $ THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python experiment.py
 ```
 
-Results
+- **Results**
 The experiment.py script stores the results in a results folder within each respective directory.
 
-Configuration
+- **Configuration**
 The alpha value is set to 0.5 by default. To modify this value, adjust the following lines:
 
 Line 44 in boston_housing/autograd/black_box_alpha.py
 Line 93 in boston_housing/theano/experiment.py
 Line 117 in mnist/experiment.py
 
-Dependencies
+- **Dependencies**
 To run the code, you will need to have the following:
 
 Python
 Autograd
 Theano (Optional, for GPU acceleration)
 
-Citation
+- **Citation**
 If you find this implementation useful in your work, please consider citing:
+  ```sh
+  @inproceedings{hernandez2016black,
+        title={Black-Box Alpha Divergence Minimization},
+        author={Hern{\'a}ndez-Lobato, J. M. and Li, Y. and Rowland, M. and Bui, T. D. and Hern{\'a}ndez-Lobato, D. and Turner, R. E.},
+        booktitle={International Conference on Machine Learning},
+        pages={1511--1520},
+        year={2016}
+    }
+ ```
 
-@inproceedings{hernandez2016black,
-  title={Black-Box Alpha Divergence Minimization},
-  author={Hern{\'a}ndez-Lobato, J. M. and Li, Y. and Rowland, M. and Bui, T. D. and Hern{\'a}ndez-Lobato, D. and Turner, R. E.},
-  booktitle={International Conference on Machine Learning},
-  pages={1511--1520},
-  year={2016}
-}
-
-Contact
+- **Contact**
 For any queries or discussions, feel free to open an issue in the repository or contact me directly at [qqaazz800624@gmail.com].
 
 Thank you for your interest in this project!
