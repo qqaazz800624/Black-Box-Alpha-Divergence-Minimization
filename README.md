@@ -18,10 +18,11 @@ The `boston_housing` directory includes code to train a neural network with one 
 
 - **Theano Version:** Located in boston_housing/theano, this can be run on a GPU or CPU. For GPU execution, use:
 
-$ cd boston_housing/theano/
-$ THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python experiment.py
+ ```sh
+ $ cd boston_housing/theano/
+ $ THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python experiment.py
 
-For CPU execution, simply run:
+- **For CPU execution, simply run:**
 
 $ python experiment.py
 
