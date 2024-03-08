@@ -18,13 +18,13 @@ The `boston_housing` directory includes code to train a neural network with one 
 
 - **Theano Version:** Located in boston_housing/theano, this can be run on a GPU or CPU. For GPU execution, use:
 
- ```sh
- $ cd boston_housing/theano/
- $ THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python experiment.py
+  ```sh
+  $ cd boston_housing/theano/
+  $ THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python experiment.py
 
 - **For CPU execution, simply run:**
-
-$ python experiment.py
+  ```sh
+  $ python experiment.py
 
 MNIST
 The mnist folder contains Theano code to train a neural network with two hidden layers, each with 400 units, on the MNIST dataset. Due to the size of the network, GPU execution is recommended:
