@@ -40,9 +40,9 @@ The experiment.py script stores the results in a results folder within each resp
 ### Configuration
 The alpha value is set to 0.5 by default. To modify this value, adjust the following lines:
 
-Line 44 in boston_housing/autograd/black_box_alpha.py
-Line 93 in boston_housing/theano/experiment.py
-Line 117 in mnist/experiment.py
+- **Line 44 in boston_housing/autograd/black_box_alpha.py**
+- **Line 93 in boston_housing/theano/experiment.py**
+- **Line 117 in mnist/experiment.py**
 
 ### Dependencies
 To run the code, you will need to have the following:
