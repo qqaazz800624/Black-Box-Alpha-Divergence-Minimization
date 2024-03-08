@@ -55,13 +55,13 @@ Theano (Optional, for GPU acceleration)
 If you find this implementation useful in your work, please consider citing:
 
 ```sh
-  @inproceedings{hernandez2016black,
-        title={Black-Box Alpha Divergence Minimization},
-        author={Hern{\'a}ndez-Lobato, J. M. and Li, Y. and Rowland, M. and Bui, T. D. and Hern{\'a}ndez-Lobato, D. and Turner, R. E.},
-        booktitle={International Conference on Machine Learning},
-        pages={1511--1520},
-        year={2016}
-    }
+@inproceedings{hernandez2016black,
+    title={Black-Box Alpha Divergence Minimization},
+    author={Hern{\'a}ndez-Lobato, J. M. and Li, Y. and Rowland, M. and Bui, T. D. and Hern{\'a}ndez-Lobato, D. and Turner, R. E.},
+    booktitle={International Conference on Machine Learning},
+    pages={1511--1520},
+    year={2016}
+}
 ```
 
 ### Contact
